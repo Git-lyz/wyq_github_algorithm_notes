@@ -3,7 +3,6 @@ package com.company.sort;
 import java.util.Arrays;
 
 import static com.company.sort.HeapSort.swap;
-import static com.sun.tools.javac.jvm.ByteCodes.swap;
 
 public class SelectSort {
     public static void main(String[] args) {

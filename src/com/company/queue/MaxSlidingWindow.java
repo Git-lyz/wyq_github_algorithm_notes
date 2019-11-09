@@ -1,4 +1,4 @@
-package com.company.sort;
+package com.company.queue;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
