@@ -1,5 +1,9 @@
 package com.company.sort;
 
+/**
+ * 冒泡排序
+ * @author liuyuzhe
+ */
 public class BinarySearchSort {
 
     public static void main(String[] args) {
