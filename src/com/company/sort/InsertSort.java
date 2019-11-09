@@ -2,6 +2,10 @@ package com.company.sort;
 
 import java.util.Arrays;
 
+/**
+ * 选择排序
+ * @author liuyuzhe
+ */
 public class InsertSort {
 
     public static void main(String[] args) {
