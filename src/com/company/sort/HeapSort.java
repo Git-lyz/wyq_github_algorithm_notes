@@ -2,6 +2,10 @@ package com.company.sort;
 
 import java.util.Arrays;
 
+/**
+ * 堆排序
+ * @author liuyuzhe
+ */
 public class HeapSort {
 
     public static void main(String[] args) {
@@ -14,7 +18,7 @@ public class HeapSort {
 
     private static void heapSort(int[] nums) {
         for (int i = nums.length - 1; i > 0; i--) {
-            swap(nums, 0, i);//最后一个大的和第一个交互
+            swap(nums, 0, i);//最后一个小的 和第一个大的做交互
             adJustHeap(nums, 0, i);//每次最后一个排好的去掉 (n-1), 剩下的继续调整到大顶堆, 第一个是最大的
         }
     }
@@ -32,7 +36,7 @@ public class HeapSort {
             child = leftChild(i);
 
             // 如果左子树小于右子树，则需要比较右子树和父节点
-            if (child != n - 1 && nums[child] < nums[child + 1]) {// FIXME: 09/11/2019 找左右节点最大的
+            if (child != n - 1 && nums[child] < nums[child + 1]) {// FIXME: 09/11/2019 不是数组最后一个元素,还有child+1元素; 找左右节点最大的
                 child++;// 序号增1，指向右子树
             }
 
@@ -43,7 +47,7 @@ public class HeapSort {
                 break;
             }
         }
-        nums[i] = parent;
+        nums[i] = parent; // FIXME: 11/11/2019 如果交换过,i接着会被赋值child(大节点的索引), 我赋值给它小的节点值
     }
 
     private static int leftChild(int i) {

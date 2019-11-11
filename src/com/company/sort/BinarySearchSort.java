@@ -1,7 +1,7 @@
 package com.company.sort;
 
 /**
- * 冒泡排序
+ * 二分查找排序
  * @author liuyuzhe
  */
 public class BinarySearchSort {
