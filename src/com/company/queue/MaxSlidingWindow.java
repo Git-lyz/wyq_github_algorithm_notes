@@ -73,7 +73,7 @@ public class MaxSlidingWindow {
      * @param k 窗口元素的数量
      */
     private static void clean_deque(int[] nums, int i, int k) {
-        while (!deq.isEmpty() && deq.getFirst() == i - k) {
+        while (!deq.isEmpty() && deq.getFirst() == i - k) { //3-3==0
             deq.removeFirst();
         }
 

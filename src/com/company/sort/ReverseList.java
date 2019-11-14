@@ -19,7 +19,7 @@ public class ReverseList {
         ReverseListNode curr = head;
         while (curr != null) {
             ReverseListNode next = curr.next;
-            curr.next = prev;
+            curr.next = prev; //链表反转
             prev = curr;
             curr = next;
         }
@@ -31,8 +31,8 @@ public class ReverseList {
             return head;
         }
         ReverseListNode p = reverseList2(head.next);
-        head.next.next = head;
-        head.next = null;//清理正序链表的引用
+        head.next.next = head;//链表反转
+        head.next = null;//清理 当前节点 正序链表的引用
         return p;
     }
 }

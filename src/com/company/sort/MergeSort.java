@@ -5,13 +5,13 @@ import java.util.Arrays;
 public class MergeSort {
 
     public static void main(String[] args) {
-        int[] nums = {5, 6,4, 7};
+        int[] nums = {5, 6, 4, 7};
         mergeSort(nums, 0, nums.length - 1);
         System.out.println(Arrays.toString(nums));
     }
 
     private static void mergeSort(int[] nums, int lo, int hi) {
-        if (lo>=hi){
+        if (lo >= hi) {
             return;
         }
         int mid = (hi + lo) / 2; //递归拆分成0,1 ; 2,3  只有2个可直接求解的数组
@@ -28,7 +28,7 @@ public class MergeSort {
                 nums[k++] = copy[j++];
             } else if (j > hi) { //右边排列完了
                 nums[k++] = copy[i++];
-            } else if (nums[i] > copy[j]) {
+            } else if (copy[j] < copy[i]) {
                 nums[k++] = copy[j++];
             } else {
                 nums[k++] = copy[i++];

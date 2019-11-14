@@ -3,7 +3,7 @@ package com.company.sort;
 import java.util.Arrays;
 
 /**
- * 选择排序
+ * 插入排序
  * @author liuyuzhe
  */
 public class InsertSort {
@@ -20,7 +20,7 @@ public class InsertSort {
             for (j = i - 1; j >= 0 && nums[j] > current; j--) { //每次跟current这个基准比, 大的就往后放
                 nums[j + 1] = nums[j];
             }
-            nums[j + 1] = current;
+            nums[j + 1] = current;//一旦内循环成立一次, j会--
         }
     }
 }

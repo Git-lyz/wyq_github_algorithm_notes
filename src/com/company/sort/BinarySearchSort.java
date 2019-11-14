@@ -1,5 +1,7 @@
 package com.company.sort;
 
+import java.util.LinkedList;
+
 /**
  * 二分查找排序
  * @author liuyuzhe
@@ -25,6 +27,10 @@ public class BinarySearchSort {
             }
         }
         return -1;
+    }
+
+    static class Use{
+
     }
 
 }
