@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1578019-cfdb-4afd-a420-78e6416fcd6a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/link/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/sort/ReverseListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/sort/ReverseListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/array/deleteDuplicateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/array/deleteDuplicateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/link/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/link/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +33,8 @@
       <file leaf-file-name="deleteDuplicateArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/array/deleteDuplicateArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="380">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -42,8 +42,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/link/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+            <state relative-caret-position="101">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -51,14 +51,8 @@
       <file leaf-file-name="ReverseListNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/sort/ReverseListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
+            <state relative-caret-position="529">
               <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-              <folding>
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -135,8 +129,8 @@
         <option value="$PROJECT_DIR$/src/com/company/math/ReverseMath.java" />
         <option value="$PROJECT_DIR$/src/com/company/tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/company/tree/TreeDepth.java" />
-        <option value="$PROJECT_DIR$/src/com/company/array/deleteDuplicateArray.java" />
         <option value="$PROJECT_DIR$/src/com/company/sort/ReverseListNode.java" />
+        <option value="$PROJECT_DIR$/src/com/company/array/deleteDuplicateArray.java" />
         <option value="$PROJECT_DIR$/src/com/company/link/Solution.java" />
       </list>
     </option>
@@ -168,7 +162,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,6 +188,13 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="link" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -205,8 +208,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.deleteDuplicateArray">
     <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.sort.ReverseList" />
       <module name="algorithm" />
@@ -306,8 +307,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.deleteDuplicateArray" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TreeDepth" />
         <item itemvalue="Application.ReverseMath" />
         <item itemvalue="Application.ReverseList" />
@@ -336,12 +337,15 @@
       <workItem from="1574552695675" duration="1125000" />
       <workItem from="1574830004046" duration="981000" />
       <workItem from="1574984772232" duration="158000" />
-      <workItem from="1575500369697" duration="2249000" />
+      <workItem from="1575500369697" duration="3368000" />
+      <workItem from="1575542498890" duration="4000" />
+      <workItem from="1575586294302" duration="2551000" />
+      <workItem from="1576129850562" duration="1978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42498000" />
+    <option name="totallyTimeSpent" value="48150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="0" />
@@ -358,16 +362,16 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.50271004" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6680217" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.39430895" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2934003" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30631277" />
       <window_info anchor="right" id="Database" order="4" weight="0.32998565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964131" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.52710027" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5691057" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -491,24 +495,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/link/Solution.java</url>
-          <line>23</line>
+          <line>28</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/link/Solution.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/link/Solution.java</url>
-          <line>55</line>
+          <line>61</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="30" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -861,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/array/deleteDuplicateArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/sort/ReverseList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -877,21 +868,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/sort/ReverseListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
+        <state relative-caret-position="529">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/array/deleteDuplicateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/link/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        <state relative-caret-position="101">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>

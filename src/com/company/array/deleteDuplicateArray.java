@@ -23,7 +23,7 @@ public class deleteDuplicateArray {
         for (int j = 1; j < nums.length; j++) {
             if (nums[i] != nums[j]) {
                 i++;
-                nums[i] = nums[j];//数组前面都是不重复的
+                nums[i] = nums[j];//慢指针往前走一步, 数组前面都是不重复的
             }
         }
 

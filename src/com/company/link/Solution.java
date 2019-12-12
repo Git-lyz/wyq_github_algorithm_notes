@@ -4,6 +4,11 @@ import com.company.sort.ReverseListNode;
 
 /**
  * leetcode 21. 合并2个有序链表
+ * l1: 1, 5, 8
+ * l2: 2, 6, 9
+ * 125689
+ *
+ * 递归到8和9比, 8小于9 , 9放到8后面, 回退递归; 8和6比, 8大于6, 6后面放8
  *
  * @author liuyuzhe
  */
@@ -18,7 +23,7 @@ public class Solution {
     }
 
     /**
-     * 递归: 判断l1 和 l2 哪一个元素更小, 然后递归找到尾节点, 再反向返回结果, 按顺序赋值对应的next节点
+     * 递归: 判断l1 和 l2 哪一个元素更小, 然后递归找到尾节点, 再反向返回结果到递归点, 按顺序赋值对应的next节点
      */
     private static ReverseListNode mergeTwoList1(ReverseListNode l1, ReverseListNode l2) {
         if (l1 == null) {
@@ -52,7 +57,7 @@ public class Solution {
                 prev.next = l2;
                 l2 = l2.next;
             }
-            prev = prev.next;
+            prev = prev.next;//前进指针
         }
         prev.next = l1 == null ? l2 : l1;
         return preHead.next;//从-1指向下一个真正头节点
