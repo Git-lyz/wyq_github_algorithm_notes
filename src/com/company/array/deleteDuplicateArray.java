@@ -1,7 +1,7 @@
 package com.company.array;
 
 /**
- * leetcode 26 删除排序数组的重复项
+ * leetcode 26 排序数组 不重复数的length
  *
  * @author liuyuzhe
  */

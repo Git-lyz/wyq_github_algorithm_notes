@@ -10,6 +10,7 @@ public class ReverseMath {
      */
     public static void main(String[] args) {
         System.out.println(reverse(-12));
+        //System.out.println(-21%10);
     }
 
 

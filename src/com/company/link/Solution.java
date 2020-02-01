@@ -13,6 +13,7 @@ import com.company.sort.ReverseListNode;
  * @author liuyuzhe
  */
 public class Solution {
+
     public static void main(String[] args) {
         ReverseListNode link1 = buildLink1();
         System.out.println();
