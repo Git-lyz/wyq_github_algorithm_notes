@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1578019-cfdb-4afd-a420-78e6416fcd6a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/math/LengthLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/sort/ColorsSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/sort/LinkedInsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/sort/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/array/deleteDuplicateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/array/deleteDuplicateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/link/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/link/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/math/ReverseMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/math/ReverseMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/sort/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/sort/ReverseList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +33,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Segment</find>
-      <find>segments</find>
-      <find>ConcurrentHashMap</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,13 +66,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.LengthLastWord">
-    <configuration name="Leet_code_142" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.greedy.Leet_code_142" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.sort" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LinkedInsertSort">
+    <configuration name="ColorsSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.sort.ColorsSort" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.greedy.*" />
+          <option name="PATTERN" value="com.company.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,6 +98,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedInsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.sort.LinkedInsertSort" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.sort.ReverseList" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.math.ReverseMath" />
       <module name="algorithm" />
@@ -113,46 +137,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.link.Solution" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.link.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="deleteDuplicateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.array.deleteDuplicateArray" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Leet_code_142" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.deleteDuplicateArray" />
-      <item itemvalue="Application.ReverseMath" />
       <item itemvalue="Application.LengthLastWord" />
+      <item itemvalue="Application.ReverseMath" />
+      <item itemvalue="Application.ColorsSort" />
+      <item itemvalue="Application.LinkedInsertSort" />
+      <item itemvalue="Application.ReverseList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedInsertSort" />
+        <item itemvalue="Application.ReverseList" />
+        <item itemvalue="Application.ColorsSort" />
         <item itemvalue="Application.LengthLastWord" />
         <item itemvalue="Application.ReverseMath" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Leet_code_142" />
-        <item itemvalue="Application.deleteDuplicateArray" />
       </list>
     </recent_temporary>
   </component>
@@ -228,38 +226,62 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="22" key="CommitChangelistDialog2" timestamp="1580554470153">
+    <state x="390" y="22" width="768" height="814" key="CommitChangelistDialog2" timestamp="1580801825344">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state x="390" y="22" key="CommitChangelistDialog2/4.22.1436.878@4.22.1436.878" timestamp="1580554470153" />
-    <state x="148" y="99" key="DiffContextDialog" timestamp="1580554469488">
+    <state x="390" y="22" width="768" height="814" key="CommitChangelistDialog2/4.22.1436.878@4.22.1436.878" timestamp="1580801825344" />
+    <state width="441" height="646" key="DebuggerActiveHint" timestamp="1580801724566">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state x="148" y="99" key="DiffContextDialog/4.22.1436.878@4.22.1436.878" timestamp="1580554469488" />
-    <state width="1394" height="211" key="GridCell.Tab.0.bottom" timestamp="1580555332118">
+    <state width="441" height="646" key="DebuggerActiveHint/4.22.1436.878@4.22.1436.878" timestamp="1580801724566" />
+    <state x="148" y="99" key="DiffContextDialog" timestamp="1580801824348">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state width="1394" height="211" key="GridCell.Tab.0.bottom/4.22.1436.878@4.22.1436.878" timestamp="1580555332118" />
-    <state width="1394" height="211" key="GridCell.Tab.0.center" timestamp="1580555332118">
+    <state x="148" y="99" key="DiffContextDialog/4.22.1436.878@4.22.1436.878" timestamp="1580801824348" />
+    <state width="1394" height="291" key="GridCell.Tab.0.bottom" timestamp="1580801830857">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state width="1394" height="211" key="GridCell.Tab.0.center/4.22.1436.878@4.22.1436.878" timestamp="1580555332118" />
-    <state width="1394" height="211" key="GridCell.Tab.0.left" timestamp="1580555332118">
+    <state width="1394" height="291" key="GridCell.Tab.0.bottom/4.22.1436.878@4.22.1436.878" timestamp="1580801830857" />
+    <state width="1394" height="291" key="GridCell.Tab.0.center" timestamp="1580801830856">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state width="1394" height="211" key="GridCell.Tab.0.left/4.22.1436.878@4.22.1436.878" timestamp="1580555332118" />
-    <state width="1394" height="211" key="GridCell.Tab.0.right" timestamp="1580555332118">
+    <state width="1394" height="291" key="GridCell.Tab.0.center/4.22.1436.878@4.22.1436.878" timestamp="1580801830856" />
+    <state width="1394" height="291" key="GridCell.Tab.0.left" timestamp="1580801830856">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state width="1394" height="211" key="GridCell.Tab.0.right/4.22.1436.878@4.22.1436.878" timestamp="1580555332118" />
-    <state x="231" y="63" key="SettingsEditor" timestamp="1580555328148">
+    <state width="1394" height="291" key="GridCell.Tab.0.left/4.22.1436.878@4.22.1436.878" timestamp="1580801830856" />
+    <state width="1394" height="291" key="GridCell.Tab.0.right" timestamp="1580801830856">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state x="231" y="63" key="SettingsEditor/4.22.1436.878@4.22.1436.878" timestamp="1580555328148" />
-    <state x="401" y="293" key="com.intellij.ide.util.TipDialog" timestamp="1580548469673">
+    <state width="1394" height="291" key="GridCell.Tab.0.right/4.22.1436.878@4.22.1436.878" timestamp="1580801830856" />
+    <state width="1394" height="202" key="GridCell.Tab.1.bottom" timestamp="1580801773042">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state x="401" y="293" key="com.intellij.ide.util.TipDialog/4.22.1436.878@4.22.1436.878" timestamp="1580548469673" />
+    <state width="1394" height="202" key="GridCell.Tab.1.bottom/4.22.1436.878@4.22.1436.878" timestamp="1580801773042" />
+    <state width="1394" height="202" key="GridCell.Tab.1.center" timestamp="1580801773041">
+      <screen x="4" y="22" width="1436" height="878" />
+    </state>
+    <state width="1394" height="202" key="GridCell.Tab.1.center/4.22.1436.878@4.22.1436.878" timestamp="1580801773041" />
+    <state width="1394" height="202" key="GridCell.Tab.1.left" timestamp="1580801773041">
+      <screen x="4" y="22" width="1436" height="878" />
+    </state>
+    <state width="1394" height="202" key="GridCell.Tab.1.left/4.22.1436.878@4.22.1436.878" timestamp="1580801773041" />
+    <state width="1394" height="202" key="GridCell.Tab.1.right" timestamp="1580801773041">
+      <screen x="4" y="22" width="1436" height="878" />
+    </state>
+    <state width="1394" height="202" key="GridCell.Tab.1.right/4.22.1436.878@4.22.1436.878" timestamp="1580801773041" />
+    <state x="231" y="63" key="SettingsEditor" timestamp="1580555349173">
+      <screen x="4" y="22" width="1436" height="878" />
+    </state>
+    <state x="231" y="63" key="SettingsEditor/4.22.1436.878@4.22.1436.878" timestamp="1580555349173" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1580795104445">
+      <screen x="4" y="22" width="1436" height="878" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/4.22.1436.878@4.22.1436.878" timestamp="1580795104445" />
+    <state x="401" y="293" key="com.intellij.ide.util.TipDialog" timestamp="1580734768736">
+      <screen x="4" y="22" width="1436" height="878" />
+    </state>
+    <state x="401" y="293" key="com.intellij.ide.util.TipDialog/4.22.1436.878@4.22.1436.878" timestamp="1580734768736" />
     <state x="387" y="212" width="670" height="676" key="search.everywhere.popup" timestamp="1580554456322">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
@@ -333,8 +355,19 @@
           <line>62</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/sort/ColorsSort.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="cur" />
+        <watch expression="h" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
