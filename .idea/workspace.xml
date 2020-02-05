@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1578019-cfdb-4afd-a420-78e6416fcd6a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/sort/ColorsSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/sort/LinkedInsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/sort/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/math/UniquePaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/sort/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/sort/ReverseList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.math.ReverseMath" />
+    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.math.UniquePaths" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -139,18 +136,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.LengthLastWord" />
-      <item itemvalue="Application.ReverseMath" />
       <item itemvalue="Application.ColorsSort" />
       <item itemvalue="Application.LinkedInsertSort" />
       <item itemvalue="Application.ReverseList" />
+      <item itemvalue="Application.UniquePaths" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.LinkedInsertSort" />
+        <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.ColorsSort" />
         <item itemvalue="Application.LengthLastWord" />
-        <item itemvalue="Application.ReverseMath" />
       </list>
     </recent_temporary>
   </component>
@@ -230,46 +227,46 @@
       <screen x="4" y="22" width="1436" height="878" />
     </state>
     <state x="390" y="22" width="768" height="814" key="CommitChangelistDialog2/4.22.1436.878@4.22.1436.878" timestamp="1580801825344" />
-    <state width="441" height="646" key="DebuggerActiveHint" timestamp="1580801724566">
+    <state width="441" height="646" key="DebuggerActiveHint" timestamp="1580872107211">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state width="441" height="646" key="DebuggerActiveHint/4.22.1436.878@4.22.1436.878" timestamp="1580801724566" />
+    <state width="441" height="646" key="DebuggerActiveHint/4.22.1436.878@4.22.1436.878" timestamp="1580872107211" />
     <state x="148" y="99" key="DiffContextDialog" timestamp="1580801824348">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
     <state x="148" y="99" key="DiffContextDialog/4.22.1436.878@4.22.1436.878" timestamp="1580801824348" />
-    <state width="1394" height="291" key="GridCell.Tab.0.bottom" timestamp="1580801830857">
+    <state width="1394" height="146" key="GridCell.Tab.0.bottom" timestamp="1580872481291">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state width="1394" height="291" key="GridCell.Tab.0.bottom/4.22.1436.878@4.22.1436.878" timestamp="1580801830857" />
-    <state width="1394" height="291" key="GridCell.Tab.0.center" timestamp="1580801830856">
+    <state width="1394" height="146" key="GridCell.Tab.0.bottom/4.22.1436.878@4.22.1436.878" timestamp="1580872481291" />
+    <state width="1394" height="146" key="GridCell.Tab.0.center" timestamp="1580872481290">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state width="1394" height="291" key="GridCell.Tab.0.center/4.22.1436.878@4.22.1436.878" timestamp="1580801830856" />
-    <state width="1394" height="291" key="GridCell.Tab.0.left" timestamp="1580801830856">
+    <state width="1394" height="146" key="GridCell.Tab.0.center/4.22.1436.878@4.22.1436.878" timestamp="1580872481290" />
+    <state width="1394" height="146" key="GridCell.Tab.0.left" timestamp="1580872481290">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state width="1394" height="291" key="GridCell.Tab.0.left/4.22.1436.878@4.22.1436.878" timestamp="1580801830856" />
-    <state width="1394" height="291" key="GridCell.Tab.0.right" timestamp="1580801830856">
+    <state width="1394" height="146" key="GridCell.Tab.0.left/4.22.1436.878@4.22.1436.878" timestamp="1580872481290" />
+    <state width="1394" height="146" key="GridCell.Tab.0.right" timestamp="1580872481290">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state width="1394" height="291" key="GridCell.Tab.0.right/4.22.1436.878@4.22.1436.878" timestamp="1580801830856" />
-    <state width="1394" height="202" key="GridCell.Tab.1.bottom" timestamp="1580801773042">
+    <state width="1394" height="146" key="GridCell.Tab.0.right/4.22.1436.878@4.22.1436.878" timestamp="1580872481290" />
+    <state width="1394" height="308" key="GridCell.Tab.1.bottom" timestamp="1580872140911">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state width="1394" height="202" key="GridCell.Tab.1.bottom/4.22.1436.878@4.22.1436.878" timestamp="1580801773042" />
-    <state width="1394" height="202" key="GridCell.Tab.1.center" timestamp="1580801773041">
+    <state width="1394" height="308" key="GridCell.Tab.1.bottom/4.22.1436.878@4.22.1436.878" timestamp="1580872140911" />
+    <state width="1394" height="308" key="GridCell.Tab.1.center" timestamp="1580872140910">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state width="1394" height="202" key="GridCell.Tab.1.center/4.22.1436.878@4.22.1436.878" timestamp="1580801773041" />
-    <state width="1394" height="202" key="GridCell.Tab.1.left" timestamp="1580801773041">
+    <state width="1394" height="308" key="GridCell.Tab.1.center/4.22.1436.878@4.22.1436.878" timestamp="1580872140910" />
+    <state width="1394" height="308" key="GridCell.Tab.1.left" timestamp="1580872140910">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state width="1394" height="202" key="GridCell.Tab.1.left/4.22.1436.878@4.22.1436.878" timestamp="1580801773041" />
-    <state width="1394" height="202" key="GridCell.Tab.1.right" timestamp="1580801773041">
+    <state width="1394" height="308" key="GridCell.Tab.1.left/4.22.1436.878@4.22.1436.878" timestamp="1580872140910" />
+    <state width="1394" height="308" key="GridCell.Tab.1.right" timestamp="1580872140911">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
-    <state width="1394" height="202" key="GridCell.Tab.1.right/4.22.1436.878@4.22.1436.878" timestamp="1580801773041" />
+    <state width="1394" height="308" key="GridCell.Tab.1.right/4.22.1436.878@4.22.1436.878" timestamp="1580872140911" />
     <state x="231" y="63" key="SettingsEditor" timestamp="1580555349173">
       <screen x="4" y="22" width="1436" height="878" />
     </state>
@@ -359,6 +356,11 @@
           <url>file://$PROJECT_DIR$/src/com/company/sort/ColorsSort.java</url>
           <line>34</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/math/UniquePaths.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
