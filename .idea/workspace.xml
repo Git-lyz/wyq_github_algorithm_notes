@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1578019-cfdb-4afd-a420-78e6416fcd6a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/sort/ColorsSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/sort/LinkedInsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/sort/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/array/LeetCode_1051.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/sort/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/sort/ReverseList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -71,13 +67,26 @@
       <recent name="com.company.sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedInsertSort">
+  <component name="RunManager" selected="Application.LeetCode_1051">
     <configuration name="ColorsSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.sort.ColorsSort" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode_1051" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.array.LeetCode_1051" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,47 +133,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.math.ReverseMath" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.LengthLastWord" />
-      <item itemvalue="Application.ReverseMath" />
       <item itemvalue="Application.ColorsSort" />
       <item itemvalue="Application.LinkedInsertSort" />
       <item itemvalue="Application.ReverseList" />
+      <item itemvalue="Application.LeetCode_1051" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode_1051" />
         <item itemvalue="Application.LinkedInsertSort" />
         <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.ColorsSort" />
         <item itemvalue="Application.LengthLastWord" />
-        <item itemvalue="Application.ReverseMath" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -218,74 +202,58 @@
                   </entry>
                 </map>
               </option>
-              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="22" width="768" height="814" key="CommitChangelistDialog2" timestamp="1580801825344">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state x="603" y="245" key="#xdebugger.evaluate" timestamp="1595314091843">
+      <screen x="0" y="23" width="1680" height="1023" />
     </state>
-    <state x="390" y="22" width="768" height="814" key="CommitChangelistDialog2/4.22.1436.878@4.22.1436.878" timestamp="1580801825344" />
-    <state width="441" height="646" key="DebuggerActiveHint" timestamp="1580801724566">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state x="603" y="245" key="#xdebugger.evaluate/0.23.1680.1023@0.23.1680.1023" timestamp="1595314091843" />
+    <state width="436" height="466" key="DebuggerActiveHint" timestamp="1595314122407">
+      <screen x="0" y="23" width="1680" height="1023" />
     </state>
-    <state width="441" height="646" key="DebuggerActiveHint/4.22.1436.878@4.22.1436.878" timestamp="1580801724566" />
-    <state x="148" y="99" key="DiffContextDialog" timestamp="1580801824348">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state width="436" height="466" key="DebuggerActiveHint/0.23.1680.1023@0.23.1680.1023" timestamp="1595314122407" />
+    <state width="1638" height="514" key="GridCell.Tab.0.bottom" timestamp="1595320661563">
+      <screen x="0" y="23" width="1680" height="1023" />
     </state>
-    <state x="148" y="99" key="DiffContextDialog/4.22.1436.878@4.22.1436.878" timestamp="1580801824348" />
-    <state width="1394" height="291" key="GridCell.Tab.0.bottom" timestamp="1580801830857">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state width="1638" height="514" key="GridCell.Tab.0.bottom/0.23.1680.1023@0.23.1680.1023" timestamp="1595320661563" />
+    <state width="1638" height="514" key="GridCell.Tab.0.center" timestamp="1595320661562">
+      <screen x="0" y="23" width="1680" height="1023" />
     </state>
-    <state width="1394" height="291" key="GridCell.Tab.0.bottom/4.22.1436.878@4.22.1436.878" timestamp="1580801830857" />
-    <state width="1394" height="291" key="GridCell.Tab.0.center" timestamp="1580801830856">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state width="1638" height="514" key="GridCell.Tab.0.center/0.23.1680.1023@0.23.1680.1023" timestamp="1595320661562" />
+    <state width="1638" height="514" key="GridCell.Tab.0.left" timestamp="1595320661561">
+      <screen x="0" y="23" width="1680" height="1023" />
     </state>
-    <state width="1394" height="291" key="GridCell.Tab.0.center/4.22.1436.878@4.22.1436.878" timestamp="1580801830856" />
-    <state width="1394" height="291" key="GridCell.Tab.0.left" timestamp="1580801830856">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state width="1638" height="514" key="GridCell.Tab.0.left/0.23.1680.1023@0.23.1680.1023" timestamp="1595320661561" />
+    <state width="1638" height="514" key="GridCell.Tab.0.right" timestamp="1595320661562">
+      <screen x="0" y="23" width="1680" height="1023" />
     </state>
-    <state width="1394" height="291" key="GridCell.Tab.0.left/4.22.1436.878@4.22.1436.878" timestamp="1580801830856" />
-    <state width="1394" height="291" key="GridCell.Tab.0.right" timestamp="1580801830856">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state width="1638" height="514" key="GridCell.Tab.0.right/0.23.1680.1023@0.23.1680.1023" timestamp="1595320661562" />
+    <state width="1638" height="514" key="GridCell.Tab.1.bottom" timestamp="1595320661564">
+      <screen x="0" y="23" width="1680" height="1023" />
     </state>
-    <state width="1394" height="291" key="GridCell.Tab.0.right/4.22.1436.878@4.22.1436.878" timestamp="1580801830856" />
-    <state width="1394" height="202" key="GridCell.Tab.1.bottom" timestamp="1580801773042">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state width="1638" height="514" key="GridCell.Tab.1.bottom/0.23.1680.1023@0.23.1680.1023" timestamp="1595320661564" />
+    <state width="1638" height="514" key="GridCell.Tab.1.center" timestamp="1595320661564">
+      <screen x="0" y="23" width="1680" height="1023" />
     </state>
-    <state width="1394" height="202" key="GridCell.Tab.1.bottom/4.22.1436.878@4.22.1436.878" timestamp="1580801773042" />
-    <state width="1394" height="202" key="GridCell.Tab.1.center" timestamp="1580801773041">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state width="1638" height="514" key="GridCell.Tab.1.center/0.23.1680.1023@0.23.1680.1023" timestamp="1595320661564" />
+    <state width="1638" height="514" key="GridCell.Tab.1.left" timestamp="1595320661563">
+      <screen x="0" y="23" width="1680" height="1023" />
     </state>
-    <state width="1394" height="202" key="GridCell.Tab.1.center/4.22.1436.878@4.22.1436.878" timestamp="1580801773041" />
-    <state width="1394" height="202" key="GridCell.Tab.1.left" timestamp="1580801773041">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state width="1638" height="514" key="GridCell.Tab.1.left/0.23.1680.1023@0.23.1680.1023" timestamp="1595320661563" />
+    <state width="1638" height="514" key="GridCell.Tab.1.right" timestamp="1595320661564">
+      <screen x="0" y="23" width="1680" height="1023" />
     </state>
-    <state width="1394" height="202" key="GridCell.Tab.1.left/4.22.1436.878@4.22.1436.878" timestamp="1580801773041" />
-    <state width="1394" height="202" key="GridCell.Tab.1.right" timestamp="1580801773041">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state width="1638" height="514" key="GridCell.Tab.1.right/0.23.1680.1023@0.23.1680.1023" timestamp="1595320661564" />
+    <state x="505" y="249" width="670" height="676" key="search.everywhere.popup" timestamp="1595302262820">
+      <screen x="0" y="23" width="1680" height="1023" />
     </state>
-    <state width="1394" height="202" key="GridCell.Tab.1.right/4.22.1436.878@4.22.1436.878" timestamp="1580801773041" />
-    <state x="231" y="63" key="SettingsEditor" timestamp="1580555349173">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state x="231" y="63" key="SettingsEditor/4.22.1436.878@4.22.1436.878" timestamp="1580555349173" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1580795104445">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state width="500" height="445" key="SwitcherDM/4.22.1436.878@4.22.1436.878" timestamp="1580795104445" />
-    <state x="401" y="293" key="com.intellij.ide.util.TipDialog" timestamp="1580734768736">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state x="401" y="293" key="com.intellij.ide.util.TipDialog/4.22.1436.878@4.22.1436.878" timestamp="1580734768736" />
-    <state x="387" y="212" width="670" height="676" key="search.everywhere.popup" timestamp="1580554456322">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state x="387" y="212" width="670" height="676" key="search.everywhere.popup/4.22.1436.878@4.22.1436.878" timestamp="1580554456322" />
+    <state x="505" y="249" width="670" height="676" key="search.everywhere.popup/0.23.1680.1023@0.23.1680.1023" timestamp="1595302262820" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -360,26 +328,23 @@
           <line>34</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/array/LeetCode_1051.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="cur" />
         <watch expression="h" />
+        <watch expression="heights[j++]" />
       </configuration>
     </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>prev</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>
