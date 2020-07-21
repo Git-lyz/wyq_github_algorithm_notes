@@ -29,8 +29,4 @@ public class BinarySearchSort {
         return -1;
     }
 
-    static class Use{
-
-    }
-
 }

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1578019-cfdb-4afd-a420-78e6416fcd6a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/math/UniquePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/array/LeetCode_1051.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/array/offer53.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/sort/BinarySearchSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/sort/BinarySearchSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,26 +71,13 @@
       <recent name="com.company.sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedInsertSort">
-    <configuration name="ColorsSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.sort.ColorsSort" />
+  <component name="RunManager" selected="Application.offer53">
+    <configuration name="BinarySearchSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.sort.BinarySearchSort" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LengthLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.math.LengthLastWord" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,20 +124,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="offer53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.array.offer53" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.LengthLastWord" />
-      <item itemvalue="Application.ColorsSort" />
       <item itemvalue="Application.LinkedInsertSort" />
       <item itemvalue="Application.ReverseList" />
       <item itemvalue="Application.UniquePaths" />
+      <item itemvalue="Application.BinarySearchSort" />
+      <item itemvalue="Application.offer53" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.offer53" />
+        <item itemvalue="Application.BinarySearchSort" />
         <item itemvalue="Application.LinkedInsertSort" />
         <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.ReverseList" />
-        <item itemvalue="Application.ColorsSort" />
-        <item itemvalue="Application.LengthLastWord" />
       </list>
     </recent_temporary>
   </component>
@@ -223,66 +226,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="22" width="768" height="814" key="CommitChangelistDialog2" timestamp="1580801825344">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state width="1394" height="163" key="GridCell.Tab.0.bottom" timestamp="1595370161720">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="390" y="22" width="768" height="814" key="CommitChangelistDialog2/4.22.1436.878@4.22.1436.878" timestamp="1580801825344" />
-    <state width="441" height="646" key="DebuggerActiveHint" timestamp="1580872107211">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state width="1394" height="163" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595370161720" />
+    <state width="1394" height="163" key="GridCell.Tab.0.center" timestamp="1595370161719">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="441" height="646" key="DebuggerActiveHint/4.22.1436.878@4.22.1436.878" timestamp="1580872107211" />
-    <state x="148" y="99" key="DiffContextDialog" timestamp="1580801824348">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state width="1394" height="163" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595370161719" />
+    <state width="1394" height="163" key="GridCell.Tab.0.left" timestamp="1595370161718">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="148" y="99" key="DiffContextDialog/4.22.1436.878@4.22.1436.878" timestamp="1580801824348" />
-    <state width="1394" height="146" key="GridCell.Tab.0.bottom" timestamp="1580872481291">
-      <screen x="4" y="22" width="1436" height="878" />
+    <state width="1394" height="163" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595370161718" />
+    <state width="1394" height="163" key="GridCell.Tab.0.right" timestamp="1595370161719">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1394" height="146" key="GridCell.Tab.0.bottom/4.22.1436.878@4.22.1436.878" timestamp="1580872481291" />
-    <state width="1394" height="146" key="GridCell.Tab.0.center" timestamp="1580872481290">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state width="1394" height="146" key="GridCell.Tab.0.center/4.22.1436.878@4.22.1436.878" timestamp="1580872481290" />
-    <state width="1394" height="146" key="GridCell.Tab.0.left" timestamp="1580872481290">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state width="1394" height="146" key="GridCell.Tab.0.left/4.22.1436.878@4.22.1436.878" timestamp="1580872481290" />
-    <state width="1394" height="146" key="GridCell.Tab.0.right" timestamp="1580872481290">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state width="1394" height="146" key="GridCell.Tab.0.right/4.22.1436.878@4.22.1436.878" timestamp="1580872481290" />
-    <state width="1394" height="308" key="GridCell.Tab.1.bottom" timestamp="1580872140911">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state width="1394" height="308" key="GridCell.Tab.1.bottom/4.22.1436.878@4.22.1436.878" timestamp="1580872140911" />
-    <state width="1394" height="308" key="GridCell.Tab.1.center" timestamp="1580872140910">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state width="1394" height="308" key="GridCell.Tab.1.center/4.22.1436.878@4.22.1436.878" timestamp="1580872140910" />
-    <state width="1394" height="308" key="GridCell.Tab.1.left" timestamp="1580872140910">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state width="1394" height="308" key="GridCell.Tab.1.left/4.22.1436.878@4.22.1436.878" timestamp="1580872140910" />
-    <state width="1394" height="308" key="GridCell.Tab.1.right" timestamp="1580872140911">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state width="1394" height="308" key="GridCell.Tab.1.right/4.22.1436.878@4.22.1436.878" timestamp="1580872140911" />
-    <state x="231" y="63" key="SettingsEditor" timestamp="1580555349173">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state x="231" y="63" key="SettingsEditor/4.22.1436.878@4.22.1436.878" timestamp="1580555349173" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1580795104445">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state width="500" height="445" key="SwitcherDM/4.22.1436.878@4.22.1436.878" timestamp="1580795104445" />
-    <state x="401" y="293" key="com.intellij.ide.util.TipDialog" timestamp="1580734768736">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state x="401" y="293" key="com.intellij.ide.util.TipDialog/4.22.1436.878@4.22.1436.878" timestamp="1580734768736" />
-    <state x="387" y="212" width="670" height="676" key="search.everywhere.popup" timestamp="1580554456322">
-      <screen x="4" y="22" width="1436" height="878" />
-    </state>
-    <state x="387" y="212" width="670" height="676" key="search.everywhere.popup/4.22.1436.878@4.22.1436.878" timestamp="1580554456322" />
+    <state width="1394" height="163" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595370161719" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -374,14 +333,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>prev</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>
