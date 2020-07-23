@@ -13,15 +13,11 @@ public class TreeDepth {
 
 
     public static void main(String[] args) {
-        Integer[] tree = new Integer[]{3, 9, 20, 2, null, 15, 7};
-        TreeNode treeNode = new TreeNode(tree[0]);
-        TreeNode left2 = new TreeNode(tree[1]);
-        treeNode.left = left2;
-        treeNode.right = new TreeNode(tree[2]);
-        left2.left = new TreeNode(tree[3]);
-
+        TreeNode treeNode = TreeDataFactory.createTreeNode();
         System.out.println(maxDepth2(treeNode));
     }
+
+
 
     public static int maxDepth(TreeNode root) {
         if (root == null) {
