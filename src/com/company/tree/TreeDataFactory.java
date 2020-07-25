@@ -27,8 +27,11 @@ public class TreeDataFactory {
         TreeNode right1 = new TreeNode(tree[2]);//第一right
         treeNode.right = right1;
 
-        left1.left = new TreeNode(tree[3]);//第一个left节点的left
+        TreeNode left2 = new TreeNode(tree[3]);
+        left1.left = left2;//第一个left节点的left
         right1.left =  new TreeNode(tree[4]);//第一个right节点的left
+
+        left2.left = new TreeNode(tree[5]);
 
         return treeNode;
     }
