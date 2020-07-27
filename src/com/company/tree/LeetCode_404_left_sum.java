@@ -1,9 +1,11 @@
 package com.company.tree;
 
 /**
+ * 左叶子之和
+ *
  * https://leetcode-cn.com/problems/sum-of-left-leaves/
  */
-public class LeetCode_404 {
+public class LeetCode_404_left_sum {
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createTreeNode();
         System.out.println(sumOfLeftLeaves(treeNode, false));
