@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1578019-cfdb-4afd-a420-78e6416fcd6a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/tree/LeetCode_91_middle_traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/link/ListNodeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/tree/LeetCode_1367_二叉树中的列表.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/tree/LeetCode_111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/tree/LeetCode_111_min_depth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/tree/LeetCode_404.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/tree/LeetCode_404_left_sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/tree/TreeDataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/tree/TreeDataFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +71,13 @@
       <recent name="com.company.sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode_91_middle_traversal">
-    <configuration name="LeetCode_111_min_depth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.tree.LeetCode_111_min_depth" />
+  <component name="RunManager" selected="Application.LeetCode_1367_二叉树中的列表">
+    <configuration name="Common_prefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.string.Common_prefix" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.tree.*" />
+          <option name="PATTERN" value="com.company.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_404_left_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.tree.LeetCode_404_left_sum" />
+    <configuration name="LeetCode_1367_二叉树中的列表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.tree.LeetCode_1367_二叉树中的列表" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -126,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.tree.TreeDepth" />
+    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.math.UniquePaths" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.tree.*" />
+          <option name="PATTERN" value="com.company.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,18 +139,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Offer42" />
-      <item itemvalue="Application.TreeDepth" />
-      <item itemvalue="Application.LeetCode_111_min_depth" />
-      <item itemvalue="Application.LeetCode_404_left_sum" />
       <item itemvalue="Application.LeetCode_91_middle_traversal" />
+      <item itemvalue="Application.UniquePaths" />
+      <item itemvalue="Application.Common_prefix" />
+      <item itemvalue="Application.LeetCode_1367_二叉树中的列表" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeetCode_91_middle_traversal" />
-        <item itemvalue="Application.LeetCode_111_min_depth" />
-        <item itemvalue="Application.TreeDepth" />
-        <item itemvalue="Application.LeetCode_404_left_sum" />
+        <item itemvalue="Application.LeetCode_1367_二叉树中的列表" />
+        <item itemvalue="Application.Common_prefix" />
+        <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.Offer42" />
+        <item itemvalue="Application.LeetCode_91_middle_traversal" />
       </list>
     </recent_temporary>
   </component>
@@ -232,42 +230,42 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="483" height="466" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1595803614007" />
-    <state width="1394" height="152" key="GridCell.Tab.0.bottom" timestamp="1595808704413">
+    <state width="1394" height="152" key="GridCell.Tab.0.bottom" timestamp="1595889501555">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="163" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595454899576" />
-    <state width="1394" height="152" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595808704413" />
-    <state width="1394" height="152" key="GridCell.Tab.0.center" timestamp="1595808704411">
+    <state width="1394" height="152" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595889501555" />
+    <state width="1394" height="152" key="GridCell.Tab.0.center" timestamp="1595889501554">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="163" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595454899575" />
-    <state width="1394" height="152" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595808704411" />
-    <state width="1394" height="152" key="GridCell.Tab.0.left" timestamp="1595808704411">
+    <state width="1394" height="152" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595889501554" />
+    <state width="1394" height="152" key="GridCell.Tab.0.left" timestamp="1595889501554">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="163" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595454899574" />
-    <state width="1394" height="152" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595808704411" />
-    <state width="1394" height="152" key="GridCell.Tab.0.right" timestamp="1595808704412">
+    <state width="1394" height="152" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595889501554" />
+    <state width="1394" height="152" key="GridCell.Tab.0.right" timestamp="1595889501554">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="163" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595454899576" />
-    <state width="1394" height="152" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595808704412" />
-    <state width="1394" height="356" key="GridCell.Tab.1.bottom" timestamp="1595803841355">
+    <state width="1394" height="152" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595889501554" />
+    <state width="1394" height="356" key="GridCell.Tab.1.bottom" timestamp="1595889499465">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1394" height="356" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595803841355" />
-    <state width="1394" height="356" key="GridCell.Tab.1.center" timestamp="1595803841354">
+    <state width="1394" height="356" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595889499465" />
+    <state width="1394" height="356" key="GridCell.Tab.1.center" timestamp="1595889499465">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1394" height="356" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1595803841354" />
-    <state width="1394" height="356" key="GridCell.Tab.1.left" timestamp="1595803841353">
+    <state width="1394" height="356" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1595889499465" />
+    <state width="1394" height="356" key="GridCell.Tab.1.left" timestamp="1595889499464">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1394" height="356" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1595803841353" />
-    <state width="1394" height="356" key="GridCell.Tab.1.right" timestamp="1595803841354">
+    <state width="1394" height="356" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1595889499464" />
+    <state width="1394" height="356" key="GridCell.Tab.1.right" timestamp="1595889499465">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1394" height="356" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1595803841354" />
+    <state width="1394" height="356" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1595889499465" />
     <state x="438" y="399" width="524" height="452" key="extract.method.dialog" timestamp="1595547093183">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -305,19 +303,9 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/sort/MergeSort.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/sort/QuickSort.java</url>
           <line>8</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/string/Common_prefix.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/math/ReverseMath.java</url>
@@ -340,11 +328,6 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/math/UniquePaths.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/tree/LeetCode_404_left_sum.java</url>
           <line>10</line>
           <option name="timeStamp" value="48" />
@@ -358,6 +341,11 @@
           <url>file://$PROJECT_DIR$/src/com/company/tree/LeetCode_91_middle_traversal.java</url>
           <line>70</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/tree/LeetCode_1367_二叉树中的列表.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
