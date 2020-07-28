@@ -18,7 +18,7 @@ public class TreeDataFactory {
 
 
     public static TreeNode createTreeNode() {
-        Integer[] tree = new Integer[]{3, 9, 20, 2, 8, 15, 7};
+        Integer[] tree = new Integer[]{6, 4, 9, 2, 7, 0, 3};
         TreeNode treeNode = new TreeNode(tree[0]);
 
         TreeNode left1 = new TreeNode(tree[1]); //第一个left

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1578019-cfdb-4afd-a420-78e6416fcd6a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/link/ListNodeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/tree/LeetCode_1367_二叉树中的列表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/tree/LeetCode_145_二叉树的后序遍历.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/tree/LeetCode_814_二叉树剪枝.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/tree/TreeDataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/tree/TreeDataFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <recent name="com.company.sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode_1367_二叉树中的列表">
+  <component name="RunManager" selected="Application.LeetCode_814_二叉树剪枝">
     <configuration name="Common_prefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.string.Common_prefix" />
       <module name="algorithm" />
@@ -98,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_91_middle_traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.tree.LeetCode_91_middle_traversal" />
+    <configuration name="LeetCode_145_二叉树的后序遍历" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.tree.LeetCode_145_二叉树的后序遍历" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Offer42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.array.Offer42" />
+    <configuration name="LeetCode_814_二叉树剪枝" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.tree.LeetCode_814_二叉树剪枝" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.array.*" />
+          <option name="PATTERN" value="com.company.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Offer42" />
-      <item itemvalue="Application.LeetCode_91_middle_traversal" />
       <item itemvalue="Application.UniquePaths" />
       <item itemvalue="Application.Common_prefix" />
       <item itemvalue="Application.LeetCode_1367_二叉树中的列表" />
+      <item itemvalue="Application.LeetCode_145_二叉树的后序遍历" />
+      <item itemvalue="Application.LeetCode_814_二叉树剪枝" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode_814_二叉树剪枝" />
+        <item itemvalue="Application.LeetCode_145_二叉树的后序遍历" />
         <item itemvalue="Application.LeetCode_1367_二叉树中的列表" />
         <item itemvalue="Application.Common_prefix" />
         <item itemvalue="Application.UniquePaths" />
-        <item itemvalue="Application.Offer42" />
-        <item itemvalue="Application.LeetCode_91_middle_traversal" />
       </list>
     </recent_temporary>
   </component>
@@ -226,46 +227,46 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="483" height="466" key="DebuggerActiveHint" timestamp="1595803614007">
+    <state width="483" height="466" key="DebuggerActiveHint" timestamp="1595894197596">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="483" height="466" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1595803614007" />
-    <state width="1394" height="152" key="GridCell.Tab.0.bottom" timestamp="1595889501555">
+    <state width="483" height="466" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1595894197596" />
+    <state width="1398" height="152" key="GridCell.Tab.0.bottom" timestamp="1595894427581">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="163" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595454899576" />
-    <state width="1394" height="152" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595889501555" />
-    <state width="1394" height="152" key="GridCell.Tab.0.center" timestamp="1595889501554">
+    <state width="1398" height="152" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595894427581" />
+    <state width="1398" height="152" key="GridCell.Tab.0.center" timestamp="1595894427581">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="163" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595454899575" />
-    <state width="1394" height="152" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595889501554" />
-    <state width="1394" height="152" key="GridCell.Tab.0.left" timestamp="1595889501554">
+    <state width="1398" height="152" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595894427581" />
+    <state width="1398" height="152" key="GridCell.Tab.0.left" timestamp="1595894427581">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="163" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595454899574" />
-    <state width="1394" height="152" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595889501554" />
-    <state width="1394" height="152" key="GridCell.Tab.0.right" timestamp="1595889501554">
+    <state width="1398" height="152" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595894427581" />
+    <state width="1398" height="152" key="GridCell.Tab.0.right" timestamp="1595894427581">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="163" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595454899576" />
-    <state width="1394" height="152" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595889501554" />
-    <state width="1394" height="356" key="GridCell.Tab.1.bottom" timestamp="1595889499465">
+    <state width="1398" height="152" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595894427581" />
+    <state width="1398" height="356" key="GridCell.Tab.1.bottom" timestamp="1595894253610">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1394" height="356" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595889499465" />
-    <state width="1394" height="356" key="GridCell.Tab.1.center" timestamp="1595889499465">
+    <state width="1398" height="356" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595894253610" />
+    <state width="1398" height="356" key="GridCell.Tab.1.center" timestamp="1595894253610">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1394" height="356" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1595889499465" />
-    <state width="1394" height="356" key="GridCell.Tab.1.left" timestamp="1595889499464">
+    <state width="1398" height="356" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1595894253610" />
+    <state width="1398" height="356" key="GridCell.Tab.1.left" timestamp="1595894253609">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1394" height="356" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1595889499464" />
-    <state width="1394" height="356" key="GridCell.Tab.1.right" timestamp="1595889499465">
+    <state width="1398" height="356" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1595894253609" />
+    <state width="1398" height="356" key="GridCell.Tab.1.right" timestamp="1595894253610">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1394" height="356" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1595889499465" />
+    <state width="1398" height="356" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1595894253610" />
     <state x="438" y="399" width="524" height="452" key="extract.method.dialog" timestamp="1595547093183">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -338,23 +339,17 @@
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/tree/LeetCode_91_middle_traversal.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="51" />
+          <url>file://$PROJECT_DIR$/src/com/company/tree/LeetCode_1367_二叉树中的列表.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/tree/LeetCode_1367_二叉树中的列表.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="53" />
+          <url>file://$PROJECT_DIR$/src/com/company/tree/LeetCode_814_二叉树剪枝.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="cur" />
-        <watch expression="h" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
