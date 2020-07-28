@@ -1,6 +1,10 @@
 package com.company.tree;
 
-public class LeetCode_814_二叉树剪枝 {
+/**
+ * 二叉树剪枝
+ * https://leetcode-cn.com/problems/binary-tree-pruning/solution/java-hou-xu-bian-li-by-zxy0917/
+ */
+public class LeetCode_814 {
 
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createTreeNode();

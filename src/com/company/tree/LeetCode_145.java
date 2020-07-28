@@ -3,7 +3,10 @@ package com.company.tree;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LeetCode_145_二叉树的后序遍历 {
+/**
+ * 后序遍历
+ */
+public class LeetCode_145 {
 
 
     public static void main(String[] args) {

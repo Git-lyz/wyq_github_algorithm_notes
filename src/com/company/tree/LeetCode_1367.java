@@ -4,9 +4,10 @@ import com.company.link.ListNodeFactory;
 import com.company.sort.ListNode;
 
 /**
+ * 1367. 二叉树中的列表
  * https://leetcode-cn.com/problems/linked-list-in-binary-tree/
  */
-public class LeetCode_1367_二叉树中的列表 {
+public class LeetCode_1367 {
 
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createTreeNode();
