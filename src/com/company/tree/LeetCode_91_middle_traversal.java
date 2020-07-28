@@ -15,7 +15,7 @@ public class LeetCode_91_middle_traversal {
 
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createTreeNode();
-        System.out.println(inordertraversal(treeNode));
+        System.out.println(inordertraversal3(treeNode));
     }
 
     /**
@@ -23,11 +23,11 @@ public class LeetCode_91_middle_traversal {
      * 将树的右边整体的都挂在树的左边的右节点上, 然后遍历
      */
     public static List<Integer> inordertraversal3(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
+        List<Integer> res = new ArrayList<>();//最后把树变成一个链条
         TreeNode pre;
         while (root != null) {
 
-            if (root.left != null) {
+            if (root.left != null) { //换位置, 把右边的树, 放入左边的节点
                 pre = root.left;
                 while (pre.right != null) {
                     pre = pre.right;
@@ -38,7 +38,7 @@ public class LeetCode_91_middle_traversal {
                 root = root.left;
                 tmp.left = null;
             } else {
-                //没有左节点,就遍历有边
+                //没有左节点,就遍历右边节点, 放入链表中
                 res.add(root.val);
                 root = root.right;
 
