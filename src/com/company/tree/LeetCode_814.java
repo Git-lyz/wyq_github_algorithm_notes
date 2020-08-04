@@ -13,6 +13,9 @@ public class LeetCode_814 {
         System.out.println(LeetCode_91_middle_traversal.inordertraversal(pruneTree(treeNode)));
     }
 
+    /**
+     * 叶子节点为0会被删除
+     */
     private static TreeNode pruneTree(TreeNode root) {
         if (root==null)return null;
         root.left = pruneTree(root.left);
