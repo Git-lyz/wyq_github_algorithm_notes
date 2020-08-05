@@ -13,11 +13,11 @@ public class LeetCode_102 {
 
 
     public static void main(String[] args) {
-        TreeNode treeNode = TreeDataFactory.createTreeNode();
+        TreeNode treeNode = TreeDataFactory.createPostTreeNode();
         System.out.println(postOrderTraversal(treeNode));
     }
 
-    private static List<List<Integer>> postOrderTraversal(TreeNode root) {
+    public static List<List<Integer>> postOrderTraversal(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         helper(root, res, 0);
         return res;
@@ -27,7 +27,8 @@ public class LeetCode_102 {
         if (root == null) {
             return;
         }
-        if (depth == res.size()) {
+
+        if (depth == res.size()) { //深度一样使用同一个集合
             res.add(new LinkedList<>());
         }
         res.get(depth).add(root.val);

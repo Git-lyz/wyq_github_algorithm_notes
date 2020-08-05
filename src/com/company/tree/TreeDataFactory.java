@@ -3,25 +3,39 @@ package com.company.tree;
 public class TreeDataFactory {
 
 
+    /**
+     *          6
+     *
+     *       4         9
+     *
+     *     2     5   7     10
+     *
+     *  1   3          8
+     *
+     */
     public static TreeNode createTreeNode() {
-        Integer[] tree = new Integer[]{6, 4, 9, 2, 7, 1, 3, 5, 0, 10};
-        TreeNode treeNode = new TreeNode(tree[0]);//6
+        Integer[] tree = new Integer[]{6, 4, 9, 2, 7, 1, 3, 5, 8, 10};
+        TreeNode root = new TreeNode(tree[0]);
 
-        TreeNode left1 = new TreeNode(tree[1]); //4
-        treeNode.left = left1;
-        TreeNode right1 = new TreeNode(tree[2]);//9
-        treeNode.right = right1;
+        TreeNode left1 = new TreeNode(tree[1]);
+        root.left = left1;
+        TreeNode right1 = new TreeNode(tree[2]);
+        root.right = right1;
+
         TreeNode left2 = new TreeNode(tree[3]);
         left1.left = left2;//2
-        left1.right = new TreeNode(tree[7]);//5
+        left1.right = new TreeNode(tree[7]);
+
         TreeNode left7 = new TreeNode(tree[4]);
         right1.left = left7;//7
         right1.right = new TreeNode(tree[9]);
-        left7.right = new TreeNode(tree[8]);//8
-        left2.left = new TreeNode(tree[5]);//1
+
+        left7.right = new TreeNode(tree[8]);
+
+        left2.left = new TreeNode(tree[5]);
         left2.right = new TreeNode(tree[6]);
 
-        return treeNode;
+        return root;
     }
 
     /**
@@ -66,17 +80,24 @@ public class TreeDataFactory {
         return root;
     }
 
-    public static TreeNode createInOrderTreeNode() {
-        Integer[] tree = new Integer[]{4, 2, 5, 1, 3, 1, 3, 5, 0, 10};
-        TreeNode treeNode = new TreeNode(tree[0]);//6
-        TreeNode left1 = new TreeNode(tree[1]); //4
-        treeNode.left = left1;
-        treeNode.right = new TreeNode(tree[2]);
+    /**             4
+     *
+     *          2       5
+     *
+     *      1     3
+     *
+     */
+    public static TreeNode createInOrderTreeNode() {//中序遍历
+        Integer[] tree = new Integer[]{4, 2, 5, 1, 3};
+        TreeNode root = new TreeNode(tree[0]);
+        root.right = new TreeNode(tree[2]);
 
-        left1.left = new TreeNode(tree[3]);//2
-        left1.right = new TreeNode(tree[4]);//7
+        TreeNode leftNode = new TreeNode(tree[1]);
+        root.left = leftNode;
 
-        return treeNode;
+        leftNode.left = new TreeNode(tree[3]);
+        leftNode.right = new TreeNode(tree[4]);
+        return root;
     }
 
 }
