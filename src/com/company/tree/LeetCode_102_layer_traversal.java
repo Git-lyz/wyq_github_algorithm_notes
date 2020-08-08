@@ -9,7 +9,7 @@ import java.util.List;
  * 二叉树的层序遍历
  * https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/di-gui-he-die-dai-by-powcai-2/
  */
-public class LeetCode_102 {
+public class LeetCode_102_layer_traversal {
 
 
     public static void main(String[] args) {

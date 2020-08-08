@@ -16,7 +16,7 @@ public class LeetCode_111_min_depth {
 
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createTreeNode();
-        System.out.println(minDepth(treeNode));
+        System.out.println(minDepth2(treeNode));
     }
 
 
@@ -30,7 +30,7 @@ public class LeetCode_111_min_depth {
         }
 
         int leftHeight = minDepth(root.left);
-        int rightHeight = minDepth(root.right);
+        int rightHeight = minDepth(root.right); //都进入到叶子节点返回0
 
         if (root.left == null || root.right == null) {// 单分叉节点, 其中一个height为0, 那么当前节点高度+1即可
             return leftHeight + rightHeight + 1;
@@ -56,7 +56,7 @@ public class LeetCode_111_min_depth {
                 break;
             }
 
-            if (root.left != null) {
+            if (root.left != null) { //走下一层就深度加1
                 stack.add(new Pair<>(root.left, current_depth + 1));
             }
 

@@ -15,6 +15,9 @@ public class LeetCode_1367 {
         System.out.println(isSubPath(listNode,treeNode));
     }
 
+    /**
+     * 相当于前序遍历, 先左后右
+     */
     private static boolean isSubPath(ListNode head, TreeNode root) {
         if (head == null){//完全匹配了
             return true;
@@ -24,7 +27,9 @@ public class LeetCode_1367 {
         }
         /*匹配查找一定要从链表头开始*/
         //先判断当前的节点，如果不对，再看左子树和右子树呗
-        return isSub(head,root) || isSubPath(head,root.left) /*从左树匹配*/|| isSubPath(head,root.right)/*右树匹配*/;
+        return isSub(head,root) ||
+                isSubPath(head,root.left) /*从左树匹配*/ ||
+                isSubPath(head,root.right)/*右树匹配*/;
     }
 
     private static boolean isSub(ListNode head, TreeNode node) {

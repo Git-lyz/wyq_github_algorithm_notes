@@ -15,7 +15,7 @@ public class LeetCode_91_middle_traversal {
 
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createTreeNode();
-        System.out.println(inordertraversal2(treeNode));
+        System.out.println(inordertraversal(treeNode));
     }
 
     /**
@@ -36,7 +36,7 @@ public class LeetCode_91_middle_traversal {
 
                 TreeNode tmp = root;
                 root = root.left;
-                tmp.left = null;
+                tmp.left = null; // original cur left be null, avoid infinite loops
             } else {
                 //没有左节点,就遍历右边节点, 放入链表中
                 res.add(root.val);

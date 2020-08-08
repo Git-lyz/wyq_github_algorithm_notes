@@ -59,11 +59,11 @@ public class LeetCode_173 {
         public int next() {
             int res = -1;
             while (cur != null || !stack.isEmpty()) {
-                while (cur != null) {
+                while (cur != null) {//优先把左节点放入stack
                     stack.add(cur);
                     cur = cur.left;
                 }
-                cur = stack.pop();
+                cur = stack.pop(); //找完左, 找右
                 res = cur.val;
                 cur = cur.right;
                 break;

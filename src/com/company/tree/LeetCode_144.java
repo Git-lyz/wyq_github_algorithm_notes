@@ -20,6 +20,9 @@ public class LeetCode_144 {
         return list;
     }
 
+    /**
+     * 先把根节点save, 然后递归把每一层的左子节点save, 反向回递归save 右子节点
+     */
     private static void helper(TreeNode root, List<Integer> list) {
         if (root==null)return;
         list.add(root.val);

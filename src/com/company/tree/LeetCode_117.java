@@ -12,8 +12,8 @@ public class LeetCode_117 {
 
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createTreeNode();
-        TreeNode node = connect(treeNode);
-        System.out.println(LeetCode_102.postOrderTraversal(node));
+        TreeNode node = connect1(treeNode);
+        System.out.println(LeetCode_102_layer_traversal.postOrderTraversal(node));
     }
 
     public static TreeNode connect(TreeNode root) {
@@ -73,7 +73,7 @@ public class LeetCode_117 {
                 TreeNode cur = queue.poll();
                 //从第二个节点开始，将前一个节点的 pre 指向当前节点
                 if (i > 0) {
-                    pre.next = cur;
+                    pre.next = cur; //这里不断利用临时变量, 对root树里的节点做赋值操作
                 }
                 pre = cur;
                 if (cur.left != null) {

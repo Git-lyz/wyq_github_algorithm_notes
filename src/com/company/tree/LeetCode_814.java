@@ -18,8 +18,9 @@ public class LeetCode_814 {
      */
     private static TreeNode pruneTree(TreeNode root) {
         if (root==null)return null;
-        root.left = pruneTree(root.left);
+        root.left = pruneTree(root.left);//通过递归给左右节点赋值
         root.right = pruneTree(root.right);
+        //过滤器, 是否拦截, 返回原节点的值
         if (root.val==0 && root.left ==null && root.right == null){
             return null;
         }
