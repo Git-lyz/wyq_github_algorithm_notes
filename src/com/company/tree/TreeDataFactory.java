@@ -100,4 +100,25 @@ public class TreeDataFactory {
         return root;
     }
 
+    /**             2
+     *
+     *          2       5
+     *
+ *                   5     7
+     *
+     */
+    public static TreeNode createTreeNode2() {//中序遍历
+        Integer[] tree = new Integer[]{2, 2, 5, 5, 7};
+        TreeNode root = new TreeNode(tree[0]);
+        TreeNode rightNode = new TreeNode(tree[2]);
+        root.right = rightNode;
+
+        TreeNode leftNode = new TreeNode(tree[1]);
+        root.left = leftNode;
+
+        rightNode.left = new TreeNode(tree[3]);
+        rightNode.right = new TreeNode(tree[4]);
+        return root;
+    }
+
 }
