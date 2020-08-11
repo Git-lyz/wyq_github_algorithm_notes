@@ -121,4 +121,24 @@ public class TreeDataFactory {
         return root;
     }
 
+    /**             1
+     *
+     *          2       3
+     *
+     *      4     5
+     *
+     */
+    public static TreeNode createInOrderTreeNode3() {//中序遍历
+        Integer[] tree = new Integer[]{1, 2, 3, 4, 5};
+        TreeNode root = new TreeNode(tree[0]);
+        root.right = new TreeNode(tree[2]);
+
+        TreeNode leftNode = new TreeNode(tree[1]);
+        root.left = leftNode;
+
+        leftNode.left = new TreeNode(tree[3]);
+        leftNode.right = new TreeNode(tree[4]);
+        return root;
+    }
+
 }
