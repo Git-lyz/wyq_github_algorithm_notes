@@ -2,8 +2,10 @@ package com.company.tree;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * 二叉树的层序遍历
@@ -13,8 +15,8 @@ public class LeetCode_102_layer_traversal {
 
 
     public static void main(String[] args) {
-        TreeNode treeNode = TreeDataFactory.createPostTreeNode();
-        System.out.println(postOrderTraversal(treeNode));
+        TreeNode treeNode = TreeDataFactory.createTreeNode();
+        System.out.println(levelTraversal(treeNode));
     }
 
     public static List<List<Integer>> postOrderTraversal(TreeNode root) {
@@ -36,4 +38,24 @@ public class LeetCode_102_layer_traversal {
         helper(root.right, res, depth + 1);
     }
 
+
+    private static List<List<Integer>> levelTraversal(TreeNode root){
+        List<List<Integer>> res = new ArrayList<>();
+        if (root == null) return res;
+        Deque<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            int N = queue.size();
+            List<Integer> tmp = new ArrayList<>();
+            for (int i = 0; i < N; i++) {
+                TreeNode node = queue.poll();
+                tmp.add(node.val);
+                if (node.left!=null)queue.add(node.left);
+                if (node.right!=null)queue.add(node.right);
+            }
+
+            res.add(tmp);
+        }
+        return res;
+    }
 }
