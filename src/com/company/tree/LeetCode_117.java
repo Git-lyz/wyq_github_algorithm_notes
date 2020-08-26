@@ -57,8 +57,6 @@ public class LeetCode_117 {
 
     /**
      * 采用队列将下一层的节点保存起来
-     * @param root
-     * @return
      */
     public static TreeNode connect1(TreeNode root) {
         if (root == null) {
@@ -69,7 +67,7 @@ public class LeetCode_117 {
         while (!queue.isEmpty()) {
             int size = queue.size();
             TreeNode pre = null;
-            for (int i = 0; i < size; i++) {
+            for (int i = 0; i < size; i++) { //层序遍历, 来赋值
                 TreeNode cur = queue.poll();
                 //从第二个节点开始，将前一个节点的 pre 指向当前节点
                 if (i > 0) {

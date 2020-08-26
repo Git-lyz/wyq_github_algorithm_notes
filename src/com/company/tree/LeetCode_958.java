@@ -11,7 +11,7 @@ public class LeetCode_958 {
 
 
     public static void main(String[] args) {
-        TreeNode treeNode = TreeDataFactory.createPreTreeNode();
+        TreeNode treeNode = TreeDataFactory.createTreeNode2();
         Boolean isComplete = isCompleteTree(treeNode);
         System.out.println(isComplete);
     }

@@ -52,6 +52,8 @@ public class LeetCode_111_min_depth {
             Pair<TreeNode, Integer> current = stack.poll();
             root = current.getKey();
             current_depth = current.getValue();
+
+            //一旦找到叶子节点就break
             if (root.left == null && root.right == null) {
                 break;
             }

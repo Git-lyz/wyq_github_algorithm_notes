@@ -6,6 +6,7 @@ package com.company.tree;
  * https://leetcode-cn.com/problems/sum-of-left-leaves/
  */
 public class LeetCode_404_left_sum {
+
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createPreTreeNode();
         System.out.println(sumOfLeftLeaves(treeNode, false));
@@ -16,8 +17,8 @@ public class LeetCode_404_left_sum {
             return 0;
 
 //        int leaves = getAllNodeSum(treeNode);
-        int leaves = getLeftNodeSum(treeNode, flag);
-//        int leaves = getLeftLeavesNodeSum(treeNode, flag);
+//        int leaves = getLeftNodeSum(treeNode, flag);
+        int leaves = getLeftLeavesNodeSum(treeNode, flag);
 
         int leftVal = sumOfLeftLeaves(treeNode.left, true);
         int rightVal = sumOfLeftLeaves(treeNode.right, false);

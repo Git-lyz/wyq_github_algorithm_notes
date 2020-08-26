@@ -41,7 +41,6 @@ public class LeetCode_671 {
         helper(root.left);
         helper(root.right);
 
-        return;
     }
 
 
