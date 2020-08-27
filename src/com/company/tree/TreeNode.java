@@ -1,11 +1,11 @@
 package com.company.tree;
 
 public class TreeNode {
-    TreeNode left;
-    TreeNode right;
-    TreeNode next;
+    public TreeNode left;
+    public TreeNode right;
+    public TreeNode next;
 
-    int val;
+    public int val;
 
     public TreeNode() {
     }
@@ -15,10 +15,8 @@ public class TreeNode {
     }
 
 
-
-
-    public void traversalNext(){
-        if (next != null){
+    public void traversalNext() {
+        if (next != null) {
             System.out.println(next.val);
         }
 

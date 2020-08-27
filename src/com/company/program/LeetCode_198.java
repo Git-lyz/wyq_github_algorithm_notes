@@ -3,7 +3,7 @@ package com.company.program;
 import java.util.Arrays;
 
 /**
- * 强盗抢钱
+ * 强盗抢钱: 动态规划
  * https://leetcode-cn.com/problems/house-robber/solution/dong-tai-gui-hua-jie-ti-si-bu-zou-xiang-jie-cjavap/
  */
 public class LeetCode_198 {
@@ -11,18 +11,24 @@ public class LeetCode_198 {
     static int memo[] = null;
 
     public static void main(String[] args) {
-        int[] nums = {1,2,3,1};
+        int[] nums = {1, 2, 3, 1};
+        System.out.println(rob3(nums));
+    }
+
+    private static int rob1(int[] nums) {
         memo = new int[nums.length];
         Arrays.fill(memo, -1);
-        System.out.println(rob(nums));
+        return rob1(nums, 0);
     }
 
     /**
      * 计算一定要画图
      * <p>
      * 第一种解法: 备忘录, 自顶向下
+     * <p>
+     * 递归时, 重叠子问题可以使用备忘录优化
      */
-    public static int rob(int[] nums, int start) {
+    public static int rob1(int[] nums, int start) {
         if (start >= nums.length) {
             return 0;
         }
@@ -30,7 +36,7 @@ public class LeetCode_198 {
             return memo[start];
         }
 
-        int res = Math.max(nums[start] + rob(nums, start + 2), rob(nums, start + 1));
+        int res = Math.max(nums[start] + rob1(nums, start + 2), rob1(nums, start + 1));
         memo[start] = res;
         return res;
     }
@@ -50,12 +56,12 @@ public class LeetCode_198 {
      * <p>
      * 推导出公式: Sn = max(Sn-1,hn+Sn-2)
      */
-    public static int rob(int[] nums) {
-        if (nums.length==0){
+    public static int rob2(int[] nums) {
+        if (nums.length == 0) {
             return 0;
         }
 
-        if (nums.length==1){
+        if (nums.length == 1) {
             return nums[0];
         }
 
@@ -69,5 +75,18 @@ public class LeetCode_198 {
             dp[i] = Math.max(dp[i - 1], nums[i] + dp[i - 2]);
         }
         return dp[length - 1];
+    }
+
+    /**
+     * dp数组 放假n 只和 n-1 和 n-2有关 , 最近2个房间有关
+     */
+    public static int rob3(int[] nums) {
+        int prev = 0, curr = 0;
+        for (int i : nums) {
+            int temp = Math.max(curr, prev + i);
+            prev = curr;
+            curr = temp;
+        }
+        return curr;
     }
 }

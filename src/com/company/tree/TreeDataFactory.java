@@ -47,7 +47,7 @@ public class TreeDataFactory {
      *
      * @return
      */
-    public static TreeNode createPostTreeNode() {
+    public static TreeNode  createPostTreeNode() {
         Integer[] tree = new Integer[]{5, 3, 4, 1, 2};
         TreeNode treeNode = new TreeNode(tree[0]);
         TreeNode left1 = new TreeNode(tree[1]);//3
