@@ -17,7 +17,7 @@ public class ReverseList {
         node4.after(node5);
         head.sequenceShow();
 
-        ReverseListNode newRoot = reverseList4(head);
+        ReverseListNode newRoot = reverseList3(head);
         System.out.println();
         newRoot.sequenceShow();
     }
@@ -29,6 +29,8 @@ public class ReverseList {
      * <p>
      * 当 k = 2 时，应当返回: 2->1->4->3->5
      * 当 k = 3 时，应当返回: 3->2->1->4->5
+     *
+     * https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/tu-jie-kge-yi-zu-fan-zhuan-lian-biao-by-user7208t/
      *
      * @param head
      * @return
@@ -48,10 +50,11 @@ public class ReverseList {
             end.next = null;
 
             pre.next = reverseList1(start);
-            start.next = next;
+            //翻转前start是起点, reverse后为终点
+            start.next = next;//翻转前在 end.next = null, 给赋值为null, 现在给它一个后继节点
             //合并链表
             pre = start;
-            end = pre;
+            end = pre; //默认pre == end == start
         }
         return dummy.next;
     }
