@@ -15,7 +15,7 @@ public class LeetCode_91_middle_traversal {
 
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createInOrderTreeNode();
-        System.out.println(inordertraversal3(treeNode));
+        System.out.println(inordertraversal(treeNode));
     }
 
     /**

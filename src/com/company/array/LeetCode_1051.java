@@ -24,11 +24,15 @@ public class LeetCode_1051 {
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */
     public static void main(String[] args) {
+        for (int i = 0; i < args.length; i++) {
+
+        }
         int[] heights = {1, 1, 4, 2, 1, 3, 12, 7};
         System.out.println(heightChecker(heights));
     }
 
     /**
+     * 1 <= heights[i] <= 100
      * 首先利用计数排序, arr就是升序, 然后取出在该位置上的数(它是最小值的)，与原数组中位置的数比较是否一致, 不一致就是需要移动的
      */
     public static int heightChecker(int[] heights) {
