@@ -9,7 +9,7 @@ public class Offer53 {
 
         int[] arr = {0, 1, 2, 3, 4, 5, 6, 7, 9};
 
-        System.out.println(missNumber(arr));
+        System.out.println(missingNumber(arr));
     }
 
 

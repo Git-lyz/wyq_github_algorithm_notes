@@ -16,10 +16,8 @@ public class Solution {
 
     public static void main(String[] args) {
         ReverseListNode link1 = buildLink1();
-        System.out.println();
-        System.out.println("==========");
         ReverseListNode link2 = buildLink2();
-        ReverseListNode listNode = mergeTwoList2(link1, link2);
+        ReverseListNode listNode = mergeTwoList1(link1, link2);
         listNode.sequenceShow();
     }
 

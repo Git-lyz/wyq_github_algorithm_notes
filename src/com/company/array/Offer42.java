@@ -15,6 +15,8 @@ public class Offer42 {
      * 求最大子串的和, 输入一个整型数组，数组中的一个或连续多个整数组成一个子数组。求所有子数组的和的最大值。
      * https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/
      * -2,1,-3,4,-1,2,1,-5,4
+     *
+     * [-2,1,-3,4,-1,2,1,-5,4] 他的连续子串, 相加为6
      */
     public static void main(String[] args) {
         int[] arr = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
@@ -29,7 +31,7 @@ public class Offer42 {
     private static int maxSubArray(int[] nums) {
         int res = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            nums[i] += Math.max(nums[i - 1], 0);
+            nums[i] += Math.max(nums[i - 1], 0);//取遍历列表前一个数与当前数相加
             res = Math.max(nums[i], res);
         }
         return res;
