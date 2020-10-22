@@ -8,17 +8,15 @@ import java.util.Arrays;
  */
 public class LeetCode_198 {
 
-    static int memo[] = null;
-
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 1};
-        System.out.println(rob3(nums));
+        System.out.println(rob1(nums));
     }
 
     private static int rob1(int[] nums) {
-        memo = new int[nums.length];
+        int[] memo = new int[nums.length];
         Arrays.fill(memo, -1);
-        return rob1(nums, 0);
+        return rob1(nums, 0,memo);
     }
 
     /**
@@ -28,7 +26,7 @@ public class LeetCode_198 {
      * <p>
      * 递归时, 重叠子问题可以使用备忘录优化
      */
-    public static int rob1(int[] nums, int start) {
+    public static int rob1(int[] nums, int start, int[] memo) {
         if (start >= nums.length) {
             return 0;
         }
@@ -36,7 +34,7 @@ public class LeetCode_198 {
             return memo[start];
         }
 
-        int res = Math.max(nums[start] + rob1(nums, start + 2), rob1(nums, start + 1));
+        int res = Math.max(nums[start] + rob1(nums, start + 2, memo), rob1(nums, start + 1, memo));
         memo[start] = res;
         return res;
     }
@@ -78,7 +76,7 @@ public class LeetCode_198 {
     }
 
     /**
-     * dp数组 放假n 只和 n-1 和 n-2有关 , 最近2个房间有关
+     * dp数组 房间n 只和 n-1 和 n-2有关 , 最近2个房间有关
      */
     public static int rob3(int[] nums) {
         int prev = 0, curr = 0;

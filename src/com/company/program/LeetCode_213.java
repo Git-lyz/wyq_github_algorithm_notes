@@ -8,16 +8,11 @@ import java.util.Arrays;
  */
 public class LeetCode_213 {
 
-    static int memo[] = null;
-
     public static void main(String[] args) {
         int[] nums = {2, 3, 2};
         System.out.println(rob3(nums));
     }
 
-    /**
-     * dp数组 放假n 只和 n-1 和 n-2有关 , 最近2个房间有关
-     */
     public static int rob3(int[] nums) {
         if (nums.length == 0) {
             return 0;

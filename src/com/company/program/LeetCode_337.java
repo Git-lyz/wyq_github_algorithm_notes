@@ -23,11 +23,11 @@ public class LeetCode_337 {
 
     public static void main(String[] args) {
         TreeNode root = TreeDataFactory.createPostTreeNode();
-        System.out.println(rob3(root));
+        System.out.println(rob(root));
     }
 
-    static HashMap<TreeNode, Integer> f = new HashMap<>();
-    static HashMap<TreeNode, Integer> g = new HashMap<>();
+    static HashMap<TreeNode, Integer> f = new HashMap<>();//抢
+    static HashMap<TreeNode, Integer> g = new HashMap<>();//不枪
 
     /**
      * 深度优先搜索递归, root的f,g最大值就是结果

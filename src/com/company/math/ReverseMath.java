@@ -1,5 +1,8 @@
 package com.company.math;
 
+/**
+ * LeetCode10 反转整数
+ */
 public class ReverseMath {
 
     /**
@@ -9,8 +12,10 @@ public class ReverseMath {
      * 4.每完成一个反转结果, 使用x/10去掉最低位
      */
     public static void main(String[] args) {
-        System.out.println(reverse(-12));
-        //System.out.println(-21%10);
+        //2147483650
+        //2147483647
+//        System.out.println(reverse(Integer.MAX_VALUE));
+        System.out.println(reverse(12300));
     }
 
 
@@ -18,7 +23,7 @@ public class ReverseMath {
         int result = 0, lo = 0;
         while (x != 0) {
             lo = x % 10;
-            //check
+            //check  给的数 , 214748364 如果最后一位大于7,肯定溢出了
             if (result > Integer.MAX_VALUE / 10  //  result * 10>Integer.MAX_VALUE 溢出了
                     || ((Integer.MAX_VALUE / 10) == result && Integer.MAX_VALUE % 10 < lo)) { // (result * 10) + a > Integer.MAX_VALUE
                 return 0;
