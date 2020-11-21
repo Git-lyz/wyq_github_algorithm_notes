@@ -25,14 +25,14 @@ public class QuickSort {
             while (lo < hi && nums[hi] >= pivot) {
                 hi--;
             }
-            nums[lo] = nums[hi];
+            nums[lo] = nums[hi];//小的往左放
             while (lo < hi && nums[lo] <= pivot) {
                 lo++;
             }
-            nums[hi] = nums[lo];
+            nums[hi] = nums[lo];//大的往右放
         }
         nums[lo] = pivot;
-        return lo;
+        return lo;//找到中心点, 左边都小, 右边都大
     }
 
 

@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * 插入排序
+ *
  * @author liuyuzhe
  */
 public class InsertSort {
@@ -22,5 +23,26 @@ public class InsertSort {
             }
             nums[j + 1] = current;//把current放入左边排好序的位置
         }
+    }
+
+    private static void insertSort2(int[] nums) {
+        for (int i = 1; i < nums.length; i++) {
+            int current = nums[i];
+            int left = 0, right = i - 1, mid = 0;
+            while (left <= right) {
+                mid = (left + right) / 2;
+                if (current < nums[mid]) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
+            }
+            int j;
+            for (j = i - 1; j >= left; j--) {
+                nums[j + 1] = nums[j];
+            }
+            nums[left] = current;
+        }
+
     }
 }

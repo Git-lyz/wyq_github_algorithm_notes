@@ -14,7 +14,7 @@ public class TreeDepth {
 
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createTreeNode();
-        System.out.println(maxDepth(treeNode));
+        System.out.println(maxDepth2(treeNode));
     }
 
 
