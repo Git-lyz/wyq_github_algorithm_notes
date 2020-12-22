@@ -11,14 +11,18 @@ import java.util.Queue;
  * 二叉树的层序遍历
  * https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/di-gui-he-die-dai-by-powcai-2/
  */
-public class LeetCode_102_layer_traversal {
+public class LeetCode_102_层序遍历 {
 
 
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createTreeNode();
-        System.out.println(levelTraversal(treeNode));
+        System.out.println(postOrderTraversal(treeNode));
     }
 
+    /**
+     * 利用前序遍历, 每遍历树的一层, 就保存当前层的深度, 默认从0开始, 每一层创建一个独立的集合,
+     * 把树每一个节点走一遍,保存到每一个对应的集合里;
+     */
     public static List<List<Integer>> postOrderTraversal(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         helper(root, res, 0);
@@ -39,6 +43,10 @@ public class LeetCode_102_layer_traversal {
     }
 
 
+    /**
+     * 利用遍历, 拿到每一层的节点, 通过迭代取出每一层的节点保存到res集合并返回
+     *
+     */
     private static List<List<Integer>> levelTraversal(TreeNode root){
         List<List<Integer>> res = new ArrayList<>();
         if (root == null) return res;

@@ -13,7 +13,7 @@ public class LeetCode_117 {
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createTreeNode();
         TreeNode node = connect1(treeNode);
-        System.out.println(LeetCode_102_layer_traversal.postOrderTraversal(node));
+        System.out.println(LeetCode_102_层序遍历.postOrderTraversal(node));
     }
 
     public static TreeNode connect(TreeNode root) {
