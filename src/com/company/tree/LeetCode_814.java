@@ -8,9 +8,9 @@ public class LeetCode_814 {
 
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createTreeNode();
-        System.out.println(LeetCode_91_middle_traversal.inordertraversal(treeNode));
+        System.out.println(LeetCode_91_中序遍历.inordertraversal(treeNode));
 
-        System.out.println(LeetCode_91_middle_traversal.inordertraversal(pruneTree(treeNode)));
+        System.out.println(LeetCode_91_中序遍历.inordertraversal(pruneTree(treeNode)));
     }
 
     /**

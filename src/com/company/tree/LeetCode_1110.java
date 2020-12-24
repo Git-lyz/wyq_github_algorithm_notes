@@ -19,7 +19,7 @@ public class LeetCode_1110 {
         TreeNode treeNode = TreeDataFactory.createPostTreeNode();
         List<TreeNode> treeNodes = traversal(treeNode, new int[]{2, 3});
         treeNodes.forEach(treeNode1 -> {
-                    System.out.println(LeetCode_91_middle_traversal.inordertraversal(treeNode1));
+                    System.out.println(LeetCode_91_中序遍历.inordertraversal(treeNode1));
                 }
         );
     }

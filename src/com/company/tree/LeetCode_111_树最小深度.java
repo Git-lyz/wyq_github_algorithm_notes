@@ -11,15 +11,18 @@ import javafx.util.Pair;
  *
  * @author liuyuzhe
  */
-public class LeetCode_111_min_depth {
+public class LeetCode_111_树最小深度 {
 
 
     public static void main(String[] args) {
-        TreeNode treeNode = TreeDataFactory.createTreeNode();
+        TreeNode treeNode = TreeDataFactory.createPostTreeNode();
         System.out.println(minDepth2(treeNode));
     }
 
 
+    /**
+     * 不断的递归, 每一层加1, 左右节点取最小的, 如果遇到左右节点有一个孩子为null, 那么当前节点+1
+     */
     public static int minDepth(TreeNode root) {
         if (root == null) {
             return 0;
@@ -39,6 +42,9 @@ public class LeetCode_111_min_depth {
         return Math.min(leftHeight, rightHeight) + 1;
     }
 
+    /**
+     * 利用队列, 从根节点迭代, 一旦走到叶子节点, 说明当前节点是最小深度
+     */
     public static int minDepth2(TreeNode root) {
         LinkedList<Pair<TreeNode, Integer>> stack = new LinkedList<>();
         if (root == null) {

@@ -10,17 +10,17 @@ import java.util.Stack;
  * <p>
  * https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/er-cha-shu-de-zhong-xu-bian-li-by-leetcode/
  */
-public class LeetCode_91_middle_traversal {
+public class LeetCode_91_中序遍历 {
 
 
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createInOrderTreeNode();
-        System.out.println(inordertraversal(treeNode));
+        System.out.println(inordertraversal3(treeNode));
     }
 
     /**
      * 莫里斯遍历,改变树的结构变链表
-     * 将树的右边整体的都挂在树的左边的右节点上, 然后遍历
+     * 将树的右边整体的都挂在树的左边的(划重点)右节点上, 然后遍历
      */
     public static List<Integer> inordertraversal3(TreeNode root) {
         List<Integer> res = new ArrayList<>();//最后把树变成一个链条
@@ -63,6 +63,11 @@ public class LeetCode_91_middle_traversal {
     }
 
 
+    /**
+     * 利用栈数据结构来实现迭代, 先找左然后找右, 每次pop一个元素放入结果集
+     * 默认进来直接找到左子树的左叶子节点, 如果有右节点, 那么它是就根节点, 否则它是左子节点;
+     *
+     */
     public static List<Integer> inordertraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();

@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 后序遍历
  */
-public class LeetCode_145 {
+public class LeetCode_145_后序遍历 {
 
 
     public static void main(String[] args) {
