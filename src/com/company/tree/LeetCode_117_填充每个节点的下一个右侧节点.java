@@ -5,22 +5,34 @@ import java.util.Queue;
 
 /**
  * 填充每个节点的下一个右侧节点指针 II
- * https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/
+
+ * 填充它的每个 next 指针，让这个指针指向其下一个右侧节点。如果找不到下一个右侧节点，则将 next 指针设置为 NULL。
+ * 初始状态下，所有 next 指针都被设置为 NULL。
+ * 进阶：
+ * 你只能使用常量级额外空间。
+ * 使用递归解题也符合要求，本题中递归程序占用的栈空间不算做额外的空间复杂度。
+ *
+ * 链接：https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii
  */
-public class LeetCode_117 {
+public class LeetCode_117_填充每个节点的下一个右侧节点 {
 
 
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createTreeNode();
-        TreeNode node = connect1(treeNode);
+        TreeNode node = connect(treeNode);
         System.out.println(LeetCode_102_层序遍历.postOrderTraversal(node));
     }
 
+    /**
+     * 根据 根右左进行遍历, 每遍历到一个节点, 就判断其子左右节点next是否有进行关联,
+     * 并且在横向循环查找是否有匹配的
+     *
+     */
     public static TreeNode connect(TreeNode root) {
-        if (root == null || (root.right == null && root.left == null)) {
+        if (root == null || (root.right == null && root.left == null)) {//是叶子节点
             return root;
         }
-        if (root.left != null && root.right != null) {
+        if (root.left != null && root.right != null) {//完整2个分支的二叉树, 横向连接下
             root.left.next = root.right;
             root.right.next = getNextNoNullChild(root);
         }
@@ -56,7 +68,7 @@ public class LeetCode_117 {
 
 
     /**
-     * 采用队列将下一层的节点保存起来
+     * 采用队列层序遍历, 每一层记录上个note, 并把当前节点赋值给他
      */
     public static TreeNode connect1(TreeNode root) {
         if (root == null) {

@@ -26,8 +26,9 @@ public class LeetCode_144 {
     private static void helper(TreeNode root, List<Integer> list) {
         if (root==null)return;
         list.add(root.val);
-        helper(root.left,list);
+        //如果right在上面,  会先走右子树;根右左
         helper(root.right,list);
+        helper(root.left,list);
     }
 
 }
