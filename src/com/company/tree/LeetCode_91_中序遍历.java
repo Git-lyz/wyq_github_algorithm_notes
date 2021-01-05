@@ -65,7 +65,7 @@ public class LeetCode_91_中序遍历 {
 
     /**
      * 利用栈数据结构来实现迭代,中序从左开始,每个节点本身也是根节点, 一直找到叶子节点, 一旦无子节点,
-     * 就输出本身的值, 然后找右节点, 一旦找到每个右节点其实也是根节点, 就循环再早左节点;
+     * 就输出本身的值, 然后找右节点, 一旦找到每个右节点其实也是根节点, 就循环再找左节点;
      */
     public static List<Integer> inordertraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();

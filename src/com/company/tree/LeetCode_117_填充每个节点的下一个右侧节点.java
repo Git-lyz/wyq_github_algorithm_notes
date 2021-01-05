@@ -68,7 +68,7 @@ public class LeetCode_117_填充每个节点的下一个右侧节点 {
 
 
     /**
-     * 采用队列层序遍历, 每一层记录上个note, 并把当前节点赋值给他
+     * 采用队列层序遍历, 每遍历一次, 把一层的数据走一遍, 每一层记录上个note, 并把当前节点赋值给他
      */
     public static TreeNode connect1(TreeNode root) {
         if (root == null) {

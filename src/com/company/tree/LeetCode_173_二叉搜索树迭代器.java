@@ -6,14 +6,14 @@ import java.util.Stack;
 
 /**
  * 173. 二叉搜索树迭代器
- * 二叉搜索也叫排序树, 其中序遍历是升序的一个数组
+ * 二叉搜索也叫排序树, 其中序遍历是升序的一个数组, 左节点小于根,右节点大于根
  * https://leetcode-cn.com/problems/binary-search-tree-iterator/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-4-4/
  */
-public class LeetCode_173 {
+public class LeetCode_173_二叉搜索树迭代器 {
 
     public static void main(String[] args) {
         TreeNode treeNode = TreeDataFactory.createTreeNode();
-        BSTIterator2 iterator = new BSTIterator2(treeNode);
+        BSTIterator iterator = new BSTIterator(treeNode);
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
