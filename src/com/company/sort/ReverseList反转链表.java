@@ -3,23 +3,59 @@ package com.company.sort;
 /**
  * 翻转链表
  */
-public class ReverseList {
+public class ReverseList反转链表 {
 
     public static void main(String[] args) {
-        ReverseListNode head = new ReverseListNode(5);
-        ReverseListNode node2 = new ReverseListNode(4);
+        ReverseListNode head = new ReverseListNode(9);
+        ReverseListNode node2 = new ReverseListNode(8);
         head.after(node2);
-        ReverseListNode node3 = new ReverseListNode(3);
+        ReverseListNode node3 = new ReverseListNode(7);
         node2.after(node3);
-        ReverseListNode node4 = new ReverseListNode(2);
+        ReverseListNode node4 = new ReverseListNode(6);
         node3.after(node4);
-        ReverseListNode node5 = new ReverseListNode(1);
+        ReverseListNode node5 = new ReverseListNode(5);
         node4.after(node5);
+        ReverseListNode node6 = new ReverseListNode(4);
+        node5.after(node6);
+        ReverseListNode node7 = new ReverseListNode(3);
+        node6.after(node7);
+
+
+
         head.sequenceShow();
 
         ReverseListNode newRoot = reverseList3(head);
         System.out.println();
         newRoot.sequenceShow();
+    }
+
+    /**
+     * 使用prev和curr 2个指针来反转每一个节点; 从头节点开始, 依次往后遍历, 分别把当前节点和下一个节点持久化, 并反向链接上;
+     */
+    private static ReverseListNode reverseList1(ReverseListNode head) {
+        ReverseListNode prev = null; // 从头节点一直走到了尾节点
+        ReverseListNode curr = head;
+        while (curr != null) {
+            ReverseListNode next = curr.next;
+            curr.next = prev; //链表反转, 当前元素反指向
+            prev = curr;//指针向下走一步
+            curr = next;
+        }
+        return prev;
+    }
+
+    /**
+     * 通过递归找到最后一个节点, 然后每个递归栈中返回这个节点作为结果;
+     * 把最后一个节点的指针指向它的前一个节点
+     */
+    private static ReverseListNode reverseList2(ReverseListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ReverseListNode p = reverseList2(head.next);
+        head.next.next = head;//链表反转
+        head.next = null;//清理 当前节点 正序链表的引用
+        return p;
     }
 
     /**
@@ -32,8 +68,10 @@ public class ReverseList {
      *
      * https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/tu-jie-kge-yi-zu-fan-zhuan-lian-biao-by-user7208t/
      *
-     * @param head
-     * @return
+     * 通过建立一个假的头节点, 持久化2个快慢指针, 分别用于持久化反转前的上一个点和返回后的下一节点
+     * 让快指针移动k个位置, 找到反转节点, 反转k个节点, 然后快慢指针分别移动到k+1的位置; 重复上一轮操作,
+     * 直到找不到 反转节点
+     *
      */
     private static ReverseListNode reverseList3(ReverseListNode head) {
         ReverseListNode dummy = new ReverseListNode(0);
@@ -56,29 +94,7 @@ public class ReverseList {
             pre = start;
             end = pre; //默认pre == end == start
         }
-        return dummy.next;
-    }
-
-    private static ReverseListNode reverseList1(ReverseListNode head) {
-        ReverseListNode prev = null; // 从头节点一直走到了尾节点
-        ReverseListNode curr = head;
-        while (curr != null) {
-            ReverseListNode next = curr.next;
-            curr.next = prev; //链表反转, 当前元素反指向
-            prev = curr;//指针向下走一步
-            curr = next;
-        }
-        return prev;
-    }
-
-    private static ReverseListNode reverseList2(ReverseListNode head) {
-        if (head == null || head.next == null) {
-            return head;
-        }
-        ReverseListNode p = reverseList2(head.next);
-        head.next.next = head;//链表反转
-        head.next = null;//清理 当前节点 正序链表的引用
-        return p;
+        return dummy.next;//dumy和pre同一个引用地址
     }
 
     /**
