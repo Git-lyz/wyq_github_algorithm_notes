@@ -31,6 +31,7 @@ public class ReverseList反转链表 {
 
     /**
      * 使用prev和curr 2个指针来反转每一个节点; 从头节点开始, 依次往后遍历, 分别把当前节点和下一个节点持久化, 并反向链接上;
+     * 然后输入最后一个节点, 也就是第一个节点
      */
     private static ReverseListNode reverseList1(ReverseListNode head) {
         ReverseListNode prev = null; // 从头节点一直走到了尾节点
@@ -72,6 +73,9 @@ public class ReverseList反转链表 {
      * 让快指针移动k个位置, 找到反转节点, 反转k个节点, 然后快慢指针分别移动到k+1的位置; 重复上一轮操作,
      * 直到找不到 反转节点
      *
+     * start.next = next; k节点反转后的新起始节点, 把他给快慢指针, 开启新一轮反转工作
+     * dummy.next 和 pre.next 和 start 持有同一个引用, 我们对start进行反转, 也就是对结果dummy.next的反转
+     *
      */
     private static ReverseListNode reverseList3(ReverseListNode head) {
         ReverseListNode dummy = new ReverseListNode(0);
@@ -85,9 +89,9 @@ public class ReverseList反转链表 {
 
             ReverseListNode start = pre.next;//反转链表方法 入参是开始节点
             ReverseListNode next = end.next;
-            end.next = null;
+            end.next = null;//让反转有结束点
 
-            pre.next = reverseList1(start);
+            pre.next = reverseList1(start);//从头开始反转, 直到为null
             //翻转前start是起点, reverse后为终点
             start.next = next;//翻转前在 end.next = null, 给赋值为null, 现在给它一个后继节点
             //合并链表
