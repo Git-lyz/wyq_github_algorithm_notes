@@ -1,6 +1,7 @@
 package com.company.tree;
 
-import javafx.util.Pair;
+
+import com.sun.tools.javac.util.Pair;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -39,8 +40,8 @@ public class TreeDepth {
         int depth = 0;
         while (!stack.isEmpty()) {
             Pair<TreeNode, Integer> current = stack.poll();
-            root = current.getKey();
-            Integer current_depth = current.getValue();
+            root = current.fst;
+            Integer current_depth = current.snd;
             if (root != null) {
                 depth = Math.max(depth, current_depth);
                 stack.add(new Pair<>(root.left, current_depth+1));

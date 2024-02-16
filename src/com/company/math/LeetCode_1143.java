@@ -1,6 +1,5 @@
 package com.company.math;
 
-import sun.plugin2.ipc.windows.WindowsIPCFactory;
 
 public class LeetCode_1143 {
     public static void main(String[] args) {

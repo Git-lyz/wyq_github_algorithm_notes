@@ -1,8 +1,9 @@
 package com.company.tree;
 
+import com.sun.tools.javac.util.Pair;
+
 import java.util.LinkedList;
 
-import javafx.util.Pair;
 
 /**
  * 二叉树最小深度
@@ -56,8 +57,8 @@ public class LeetCode_111_树最小深度 {
         int current_depth = 0;
         while (!stack.isEmpty()) {
             Pair<TreeNode, Integer> current = stack.poll();
-            root = current.getKey();
-            current_depth = current.getValue();
+            root = current.fst;
+            current_depth = current.snd;
 
             //一旦找到叶子节点就break
             if (root.left == null && root.right == null) {
