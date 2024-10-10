@@ -1,5 +1,6 @@
 package com.company.thread;
 
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -77,7 +78,6 @@ public class TransferExample {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
         // 打印转账后的账户余额
         System.out.println("Account A balance: " + accountA.getBalance());
         System.out.println("Account B balance: " + accountB.getBalance());

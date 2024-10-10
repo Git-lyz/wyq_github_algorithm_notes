@@ -9,7 +9,6 @@ public class Common_prefix {
 
     public static void main(String[] args) {
         String[] strs = {"leets", "etcode", "leet", "leds"}; //必须保证所有元素都满足前缀匹配
-
         String result = findLongestCommonPrefix(strs);
         System.out.println(result);
     }
